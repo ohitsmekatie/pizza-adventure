@@ -43,7 +43,7 @@ def prompt_continue():
 
 def not_yesno():
     print bordered("The lady has decided to not type yes or no.\nI love you, but you gotta type yes or no.\nWhen we don't follow the rules people like Donald Trump happen.\nWhen people like D. Trump happen the world blows up.\n When the world blows up we have no where to live.\nWhen we have nowhere to live our bodies will blow up in space.")
-    yesno = raw_input("Shall we try again? Type yes, no, or whatever you want honestly.")
+    yesno = raw_input("Shall we try again? Type yes, no, or whatever you want honestly. I just don't really care")
     if(yesno == "yes"):
         if(pointinstory == 0):
             story_line1()
